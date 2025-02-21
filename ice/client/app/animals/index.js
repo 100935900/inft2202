@@ -1,4 +1,4 @@
-import animalService from "../animal.service.mock.js";
+import animalService from "../animal.service.js";
 
 async function animal(name) {
     const form = document.createElement('form');
